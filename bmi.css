@@ -1,0 +1,14 @@
+.body{
+            background-color: whitesmoke;
+               border-right: 20px solid gray;
+             border-left: 20px solid gray;
+             border-radius: 5px solid darkgray;
+             box-shadow: 1px 6px 8px 10px #0000006f;
+        }
+        .main-form-container{
+            background-color: whitesmoke;
+               border-right: 20px solid gray;
+             border-left: 20px solid gray;
+             border-radius: 5px solid darkgray;
+             box-shadow: 3px 6px 8px 10px #0000006f;
+        }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculater</title>
+  
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="bmi.css">
+
+   
+    
+</head>
+<body class="container-fluid bg-light-subtle">
+    
+    <div class="body-main-container my-5">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-4"><img src="bmi1.jpg" alt=""></div>
+            <!-- form work  -->
+            <div class="col-xs-10 col-sm-4">
+                <div class="main-form-container bg-dark-subtle border border-2 rounded-2 border-secondary-subtle my-4 mx-4 px-2 py-3">
+                    <div class="row header">
+                             <div class="col-xs-12 col-sm-12"><center><h4>BMI Calculater</h4></center></div>
+                    </div>
+                    <div class="form-container">
+                        <div class="row mt-2">
+                            <div class="col-xs-12 col-sm-12">
+                                <label for="" class="fw-bold mb-1 mx-2"> Age:(1-100)</label>
+                                <br>
+                                                                    
+                                            <div class="input-group mb-3">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Age</span>
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="txtAge" maxlength="3" required >
+                                            </div>
+                               
+                            </div>
+            
+                        </div>
+                        <!-- Height -->
+                        <div class="row mt-2">
+                            <div class="col-xs-12 col-sm-12">
+                                <label for="" class="fw-bold mb-1 mx-2"> Height:(CM)</label>
+                                <br>
+                                
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">CM</span>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="txtHeight" maxlength="3" required >
+                                    </div>
+            
+                            </div>
+            
+                            
+            
+            
+                        </div>
+                        <!-- weight -->
+                        
+                          
+                        <div class="row mt-2">
+                            <div class="col-xs-12 col-sm-12">
+                                <label for="" class="fw-bold mb-1 mx-2"> Weight:(In KG)</label>
+                                <br>
+                                
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">KG</span>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="txtWeight" maxlength="3" required >
+                                    </div>
+            
+                            </div>
+            
+                        </div>
+            
+                    </div>
+                     <!-- here is button -->
+
+                     <div class="d-grid gap-2 col-6 mx-auto">
+                        <button onclick="bmiClick()" type="button" class="btn btn-success" id="btn">BMI</button>
+                       
+                      </div>
+                      <br>
+                      <br>
+                      <br>
+                   <!-- result -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                            <center><h4 id="bmiResult"></h4></center>
+                        </div>
+                    </div>
+            
+                        </div>
+                    </div>
+            
+                </div>
+
+
+            </div>
+            <!-- third column -->
+            <div class="col-xs-12 col-sm-4"></div>
+    
+    
+    
+        </div>
+
+    </div>
+    <script src="bmi.js">
+
+
+    </script>
+</body>
+</html>
